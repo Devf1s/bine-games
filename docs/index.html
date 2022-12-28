@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- --- Manrope --- -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap&_v=20221227132854" rel="stylesheet">
+	<!-- --- Styles --- -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20221227132854">
+	<title>Bine Games</title>
+</head>
+<body>
+	<div class="modal" id="modal">	
+		<div class="modal__inner">
+			<div class="modal__content ">
+				<div class="modal__content_inner">
+					<a href="#" class="modal__close" id="closeBtn">
+						<img src="img/modal/close.svg" alt="Close Button">
+					</a>
+					<img src="img/logo.svg" alt="Logo" class="modal__logo">
+					<div class="modal__badge badge">
+						<div class="badge__waitlist badge__initial badge__inner">
+							<div class="badge__waitlist_bg badge__bg"></div>
+							<img src="img/badge/letter.svg" alt="Rocket">
+							<span>Waitlist</span>
+						</div>
+					</div>
+					<h2 class="modal__title">
+						Be at the frontline of the nft revolution
+					</h2>
+					<form class="modal__form">
+						<input type="email" class="modal__input" placeholder="Enter your email">
+						<button type="submit" class="modal__button">
+							<img src="img/modal/arrow.svg" alt="Arrow Left">
+						</button>
+					</form>
+					<p class="modal__policy">
+						I acknowledge I may unsubscribe from <br> BINE communications at any time, as per the 
+						<a href="#" target="_blank" class="modal__policy_link">Privacy policy</a>.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<header class="header">
+		<!-- For Mobile Devices -->
+		<div class="header__overlay"></div> 
+
+		<div class="container">
+			<div class="header__inner">
+				<div class="header__burger">
+					<a href="#">
+						<img src="img/logo.svg" alt="Logo" class="header__logo">
+					</a>
+					<a href="#" class="icon-menu">
+						<span></span>
+					</a>
+				</div>
+				<nav class="nav">
+					<a href="#explore" onclick="lenis.scrollTo('#explore')" class="nav__link">
+						About
+					</a>
+					<a href="#features" onclick="lenis.scrollTo('#features')" class="nav__link">
+						Features
+					</a>
+					<a href="#roadmap" onclick="lenis.scrollTo('#roadmap')" class="nav__link">
+						Roadmap
+					</a>
+					<a href="#contact" onclick="lenis.scrollTo('#contact')" class="nav__link">
+						Contact
+					</a>
+					<a href="#" class="header__btn header__btn_mobile">
+						Request Access
+					</a>
+				</nav>
+				<a href="#" class="header__btn header__btn_desktop">
+					Request Access
+				</a>
+			</div>
+		</div>
+	</header>
+
+	<main class="main">
+		<section class="hero">
+			<div class="container">
+				<div class="hero__content">
+					<img src="img/hero/coin-1.svg" alt="Coin" class="hero__coin-top">
+					
+					<div class="badge">
+						<div class="badge__initial badge__inner">
+							<div class="badge__bg"></div>
+							<img src="img/badge/rocket.svg" alt="Rocket">
+							<span>Be at the frontline of the nft revolution</span>
+						</div>
+					</div>
+					<img src="img/title.svg" alt="Title" class="hero__title"> 
+					<p class="hero__text subtitle">
+						Next Big Step in Game Finance
+					</p>
+					<a href="#" class="btn btn_gold" id="openBtn">
+						Sign Up for Early Access
+					</a>
+					<div class="hero__car">
+						<img src="img/hero/car.svg" alt="Car">
+						<div class="hero__car_shadow"></div>
+					</div>
+				
+					<img src="img/hero/coin-2.svg" alt="Coin" class="hero__coin-bottom">
+				</div>	
+				<div class="hero__scroll">
+					<div class="hero__scroll_inner hero__scroll_inner_desktop">
+						<a href="#explore" onclick="lenis.scrollTo('#explore')" class="hero__arrows">
+							<img src="img/hero/arrows.svg" alt="Arrows">
+						</a>
+						<p class="hero__desc">
+							Scroll down, or use 
+							<img src="img/hero/keyboard.svg" alt="Keyboard" class="hero__keyboard">
+							keyboard
+						</p>
+					</div>
+	
+					<!-- For Mobile Devices -->
+					<p class="hero__desc hero__desc_mobile"> 
+						Scroll down, 
+						<img src="img/hero/mobile/forefinger.svg" alt="Forefinger" class="hero__keyboard">
+						using one finger
+					</p>
+				</div>	
+			</div>
+		</section>
+		
+
+		<section class="explore" id="explore">
+			<picture><source srcset="img/explore/cloud.webp" type="image/webp"><img src="img/explore/cloud.png" alt="Cloud" class="explore__cloud"></picture>
+
+			<div class="container">
+				<div class="explore__items">
+					<div class="explore__item">				
+						<div class="explore__inner">
+							<div class="explore__content explore__content_1">
+								<img src="img/explore/explore-icon-1.svg" alt="Explore Icon" class="explore__icon">
+								<h2 class="explore__title title">
+									GameFi platform
+								</h2>
+								<p class="explore__text">
+									A decentralized platform for all kinds of games, powered by the blockchain technology
+								</p>
+								<a href="#" class="explore__btn">	
+									<img src="img/explore/arrow.svg" alt="Arrow">
+									Explore 
+								</a>
+							</div>
+							<div class="explore__images">
+								<img src="img/explore/explore-icon-1.svg" alt="Explore Icon" class="explore__icon_mobile">
+								<picture><source srcset="img/explore/gameFi.webp" type="image/webp"><img src="img/explore/gameFi.png" alt="GameFi Platform" class="explore__img explore__img_1"></picture>
+							</div>
+						</div>
+					</div>
+				
+					<div class="explore__item explore__item_reverse">				
+						<div class="explore__inner">
+							<div class="explore__content explore__content_2">
+								<img src="img/explore/explore-icon-2.svg" alt="Explore Icon" class="explore__icon">
+								<h2 class="explore__title title">
+									In-game NFT items
+								</h2>
+								<p class="explore__text explore__text_wide">
+									Easily integrate your game with a set of decentralized services, including NFTs
+								</p>
+								<a href="#" class="explore__btn">	
+									<img src="img/explore/arrow.svg" alt="Arrow">
+									Explore 
+								</a>
+							</div>
+							<div class="explore__images">
+								<img src="img/explore/explore-icon-2.svg" alt="Explore Icon" class="explore__icon_mobile">
+								<picture><source srcset="img/explore/nft-items.webp" type="image/webp"><img src="img/explore/nft-items.png" alt="NFT Items" class="explore__img explore__img_2"></picture>
+							</div>
+						</div>				
+					</div>
+				
+					<div class="explore__item">
+						<div class="explore__inner">
+							<div class="explore__content explore__content_3">
+								<img src="img/explore/explore-icon-3.svg" alt="Explore Icon" class="explore__icon">
+								<h2 class="explore__title title">
+									Built-in Marketplace
+								</h2>
+								<p class="explore__text">
+									Buy and sell in-game items without limitations
+								</p>
+								<a href="#" class="explore__btn">	
+									<img src="img/explore/arrow.svg" alt="Arrow">
+									Explore 
+								</a>
+							</div>
+							<div class="explore__images">
+								<img src="img/explore/explore-icon-3.svg" alt="Explore Icon" class="explore__icon_mobile">
+								<picture><source srcset="img/explore/marketplace.webp" type="image/webp"><img src="img/explore/marketplace.png" alt="Marketplace" class="explore__img explore__img_3"></picture>
+							</div>
+						</div>
+					</div>
+				
+					<div class="explore__item explore__item_reverse">
+						<div class="explore__inner">
+							<div class="explore__content explore__content_4">
+								<img src="img/explore/explore-icon-4.svg" alt="Explore Icon" class="explore__icon">
+								<h2 class="explore__title title">
+									Development
+								</h2>
+								<p class="explore__text explore__text_wide">
+									Start your game development journey by raising investments from the  community
+								</p>
+								<a href="#" class="explore__btn">	
+									<img src="img/explore/arrow.svg" alt="Arrow">
+									Explore 
+								</a>
+							</div>
+							<div class="explore__images">
+								<img src="img/explore/explore-icon-4.svg" alt="Explore Icon" class="explore__icon_mobile">
+								<picture><source srcset="img/explore/development.webp" type="image/webp"><img src="img/explore/development.png" alt="Development" class="explore__img explore__img_4"></picture>
+							</div>
+						</div>				
+					</div>
+				</div>
+			</div>
+
+			<picture><source srcset="img/explore/shutter.webp" type="image/webp"><img src="img/explore/shutter.png" alt="Shutter" class="explore__shutter"></picture>
+		</section>
+
+
+		<section class="game">
+			<div class="game__inner">
+				<div class="game__slider swiper">
+					<div class="game__slider_inner swiper-wrapper">
+						<!-- For Mobile Devices -->
+						<div class="game__item game__item_mobile" id="additionalSlide">
+							<picture><source srcset="img/game/game-image-3.webp" type="image/webp"><img src="img/game/game-image-3.jpg" alt="Game Image" class="game__img game__img_3"></picture>
+							<div class="game__info">
+								<div class="game__left">
+									<picture><source srcset="img/game/game-icon-1.webp" type="image/webp"><img src="img/game/game-icon-1.jpg" alt="Game Icon" class="game__icon"></picture>
+									<h4 class="game__title">Game title</h4>
+								</div>
+							</div>
+						</div>
+
+						<div class="game__item swiper-slide">
+							<picture><source srcset="img/game/game-image-1.webp" type="image/webp"><img src="img/game/game-image-1.jpg" alt="Game Image" class="game__img game__img_1"></picture>
+							<div class="game__info game__info_desktop game__info_status">
+								<div class="game__left">
+									<picture><source srcset="img/game/game-icon-1.webp" type="image/webp"><img src="img/game/game-icon-1.jpg" alt="Game Icon" class="game__icon"></picture>
+									<h4 class="game__title">Game title</h4>
+								</div>
+								<div class="game__buttons">
+									<div class="game__genre game__genre_red">
+										Genre
+									</div>
+									<div class="game__genre game__genre_green">
+										Genre
+									</div>
+								</div>
+							</div>
+
+							<!-- For Mobile Devices -->
+							<div class="game__info game__info_mobile game__info_status">
+								<div class="game__left">
+									<picture><source srcset="img/game/game-icon-1.webp" type="image/webp"><img src="img/game/game-icon-1.jpg" alt="Game Icon" class="game__icon"></picture>
+								</div>
+								<div class="game__right">
+									<div class="game__buttons">
+										<div class="game__genre game__genre_red">
+											Genre
+										</div>
+										<div class="game__genre game__genre_green">
+											Genre
+										</div>
+										<div class="game__genre game__genre_violet">
+											Genre
+										</div>
+									</div>
+									<h4 class="game__title">Game title</h4>
+								</div>
+							</div>
+						</div>
+						<div class="game__item swiper-slide">
+							<picture><source srcset="img/game/game-image-2.webp" type="image/webp"><img src="img/game/game-image-2.jpg" alt="Game Image" class="game__img game__img_2"></picture>
+							<div class="game__info">
+								<h4 class="game__title">Game title</h4>
+							</div>
+						</div>
+						<div class="game__item swiper-slide">
+							<picture><source srcset="img/game/game-image-3.webp" type="image/webp"><img src="img/game/game-image-3.jpg" alt="Game Image" class="game__img game__img_3"></picture>
+							<div class="game__info">
+								<div class="game__left">
+									<picture><source srcset="img/game/game-icon-2.webp" type="image/webp"><img src="img/game/game-icon-2.jpg" alt="Game Icon" class="game__icon"></picture>
+									<h4 class="game__title">Game title</h4>
+								</div>
+							</div>
+						</div>
+						<div class="game__item swiper-slide">
+							<picture><source srcset="img/game/game-image-4.webp" type="image/webp"><img src="img/game/game-image-4.jpg" alt="Game Image" class="game__img game__img_4"></picture>
+							<div class="game__info game__info_status">
+								<div class="game__left">
+									<picture><source srcset="img/game/game-icon-3.webp" type="image/webp"><img src="img/game/game-icon-3.jpg" alt="Game Icon" class="game__icon"></picture>
+									<h4 class="game__title">Game title</h4>
+								</div>
+								<div class="game__buttons">
+									<div class="game__genre game__genre_red">
+										Genre
+									</div>
+									<div class="game__genre game__genre_green">
+										Genre
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="game__item swiper-slide">
+							<picture><source srcset="img/game/game-image-5.webp" type="image/webp"><img src="img/game/game-image-5.jpg" alt="Game Image" class="game__img game__img_5"></picture>
+							<div class="game__info game__info_status">
+								<div class="game__left">
+									<picture><source srcset="img/game/game-icon-1.webp" type="image/webp"><img src="img/game/game-icon-1.jpg" alt="Game Icon" class="game__icon"></picture>
+									<h4 class="game__title">Game title</h4>
+								</div>
+								<div class="game__genre game__genre_violet">
+									Genre
+								</div>
+							</div>
+						</div> 
+					</div>	
+				</div>
+				<picture><source srcset="img/game/platform.webp" type="image/webp"><img src="img/game/platform.png" alt="Platform" class="game__platform"></picture>
+			</div>
+		</section>
+
+
+		<section class="features" id="features">
+			<picture><source srcset="img/features/shutter.webp" type="image/webp"><img src="img/features/shutter.png" alt="Shutter" class="features__shutter"></picture>
+			
+			<div class="container">
+				<div class="features__inner">
+					<div class="features__header">
+						<div class="badge">
+							<div class="badge__initial badge__inner">
+								<div class="badge__bg"></div>
+								<img src="img/features/stars.svg" alt="Stars">
+								<span>Our Features</span>
+							</div>
+						</div>
+						<h2 class="features__title title">
+							Choose what you need
+						</h2>
+					</div>
+
+					<div class="features__table features__table_desktop">
+						<div class="features__column features__column_left">
+							<div class="features__item features__platform">
+								<p class="features__name features__name_gray">
+									Compare platforms
+								</p>
+							</div>
+							<div class="features__item">
+								<p class="features__name">
+									Items
+								</p>
+							</div>
+							<div class="features__item">
+								<p class="features__name">
+									Marketplace
+								</p>
+							</div>
+							<div class="features__item">
+								<p class="features__name">
+									Platform currency
+								</p>
+							</div>
+							<div class="features__item">
+								<p class="features__name">
+									Minting
+								</p>
+							</div>
+						</div>
+						<div class="features__column features__column_center">
+							<div class="features__item features__platform">
+								<img src="img/logo.svg" alt="Logo">
+							</div>
+							<div class="features__item">
+								<div class="features__item_inner">
+									<div class="features__img features__img_blue">
+										<picture><source srcset="img/features/check.webp" type="image/webp"><img src="img/features/check.png" alt="Check Mark"></picture>
+									</div>
+									<p class="features__text">
+										<span>Decentralized</span>, which means that items cannot be banned from being transferred
+									</p>
+								</div>
+							</div>
+							<div class="features__item">
+								<div class="features__item_inner">
+									<div class="features__img features__img_wide features__img_blue">
+										<picture><source srcset="img/features/percent.webp" type="image/webp"><img src="img/features/percent.png" alt="Percent"></picture>
+									</div>
+									<p class="features__text">
+										<span>Low fees</span>, no limitation of selling
+									</p>
+								</div>
+							</div>
+							<div class="features__item">
+								<div class="features__item_inner">
+									<div class="features__img features__img_blue">
+										<picture><source srcset="img/features/high.webp" type="image/webp"><img src="img/features/high.png" alt="High Liquidity"></picture>
+									</div>
+									<p class="features__text">
+										<span>High liquidity</span>, can be easily bought and sold
+									</p>
+								</div>
+							</div>
+							<div class="features__item">
+								<div class="features__item_inner">
+									<div class="features__img features__img_blue">
+										<picture><source srcset="img/features/check.webp" type="image/webp"><img src="img/features/check.png" alt="Check Mark"></picture>
+									</div>
+									<p class="features__text">
+										<span>Earn items by playing</span>
+									</p>
+								</div>
+							</div>
+							<div class="features__btn_wrapper">
+								<a href="#" class="features__btn">
+									Join the Waitlist
+									<img src="img/features/arrow.svg" alt="Arrow">
+								</a>
+							</div>
+						</div>
+						<div class="features__column features__column_right">
+							<div class="features__item features__platform">
+								<p class="features__platform_name">
+									Other platforms
+								</p>
+							</div>
+							<div class="features__item">
+								<div class="features__item_inner">
+									<div class="features__img features__img_red">
+										<picture><source srcset="img/features/cross.webp" type="image/webp"><img src="img/features/cross.png" alt="Cross Mark"></picture>
+									</div>
+									<p class="features__text">
+										<span>Centralized</span>, can be blocked by platform
+									</p>
+								</div>
+							</div>
+							<div class="features__item">
+								<div class="features__item_inner">
+									<div class="features__img features__img_red">
+										<picture><source srcset="img/features/cross.webp" type="image/webp"><img src="img/features/cross.png" alt="Cross Mark"></picture>
+									</div>
+									<p class="features__text">
+										<span>High fees</span>, items freeze on buying, limitation of access
+									</p>
+								</div>
+							</div>
+							<div class="features__item">
+								<div class="features__item_inner">
+									<div class="features__img features__img_red">
+										<picture><source srcset="img/features/cross.webp" type="image/webp"><img src="img/features/cross.png" alt="Cross Mark"></picture>
+									</div>
+									<p class="features__text">
+										<span>None</span>, or not tradeable
+									</p>
+								</div>
+							</div>
+							<div class="features__item">
+								<div class="features__item_inner">
+									<div class="features__img features__img_red">
+										<picture><source srcset="img/features/cross.webp" type="image/webp"><img src="img/features/cross.png" alt="Cross Mark"></picture>
+									</div>
+									<p class="features__text">
+										<span>Buying items from the platform</span>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- For Mobile Devices -->
+					<div class="features__table_mobile">
+						<div class="features__row">
+							<div class="features__item features__item_blue features__item_narrow">
+								<img src="img/logo.svg" alt="Logo" class="features__logo">
+							</div>
+							<div class="features__item features__item_gray features__item_narrow">
+								<p class="features__platform_name">
+									Other platforms
+								</p>
+							</div>
+						</div>
+						<div class="features__row_full">
+							<p class="features__name">
+								Items
+							</p>
+						</div>
+						<div class="features__row">
+							<div class="features__item features__item_blue">
+								<div class="features__item_inner">
+									<div class="features__img features__img_blue">
+										<picture><source srcset="img/features/check.webp" type="image/webp"><img src="img/features/check.png" alt="Check Mark"></picture>
+									</div>
+									<p class="features__text">
+										<span>Decentralized</span>, which means that items cannot be banned from being transferred
+									</p>
+								</div>
+							</div>
+							<div class="features__item features__item_gray">
+								<div class="features__item_inner">
+									<div class="features__img features__img_red">
+										<picture><source srcset="img/features/cross.webp" type="image/webp"><img src="img/features/cross.png" alt="Cross Mark"></picture>
+									</div>
+									<p class="features__text">
+										<span>Centralized</span>, can be blocked by platform
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="features__row_full">
+							<p class="features__name">
+								Marketplace
+							</p>
+						</div>
+						<div class="features__row">
+							<div class="features__item features__item_blue">
+								<div class="features__item_inner">
+									<div class="features__img features__img_blue">
+										<picture><source srcset="img/features/percent.webp" type="image/webp"><img src="img/features/percent.png" alt="Percent"></picture>
+									</div>
+									<p class="features__text">
+										<span>Low fees</span>, no limitation of selling
+									</p>
+								</div>
+							</div>
+							<div class="features__item features__item_gray">
+								<div class="features__item_inner">
+									<div class="features__img features__img_red">
+										<picture><source srcset="img/features/cross.webp" type="image/webp"><img src="img/features/cross.png" alt="Cross Mark"></picture>
+									</div>
+									<p class="features__text">
+										<span>High fees</span>, items freeze on buying, limitation of access
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="features__row_full">
+							<p class="features__name">
+								Platform currency
+							</p>
+						</div>
+						<div class="features__row">
+							<div class="features__item features__item_blue">
+								<div class="features__item_inner">
+									<div class="features__img features__img_blue">
+										<picture><source srcset="img/features/high.webp" type="image/webp"><img src="img/features/high.png" alt="High liquidity"></picture>
+									</div>
+									<p class="features__text">
+										<span>High liquidity</span>, can be easily bought and sold
+									</p>
+								</div>
+							</div>
+							<div class="features__item features__item_gray">
+								<div class="features__item_inner">
+									<div class="features__img features__img_red">
+										<picture><source srcset="img/features/cross.webp" type="image/webp"><img src="img/features/cross.png" alt="Cross Mark"></picture>
+									</div>
+									<p class="features__text">
+										None, or not tradeable
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="features__row_full">
+							<p class="features__name">
+								Minting
+							</p>
+						</div>
+						<div class="features__row features__row_last">
+							<div class="features__item features__item_blue">
+								<div class="features__item_inner">
+									<div class="features__img features__img_blue">
+										<picture><source srcset="img/features/check.webp" type="image/webp"><img src="img/features/check.png" alt="Check Mark"></picture>
+									</div>
+									<p class="features__text">
+										Earn items by playing
+									</p>
+								</div>
+							</div>
+							<div class="features__item features__item_gray">
+								<div class="features__item_inner">
+									<div class="features__img features__img_red">
+										<picture><source srcset="img/features/cross.webp" type="image/webp"><img src="img/features/cross.png" alt="Cross Mark"></picture>
+									</div>
+									<p class="features__text">
+										Buying items from the platform
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="features__btn_wrapper">
+							<a href="#" class="features__btn btn btn_gold">
+								Join the Waitlist
+								<img src="img/features/arrow.svg" alt="Arrow">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<picture><source srcset="img/features/lightning.webp" type="image/webp"><img src="img/features/lightning.png" alt="Lightning" class="features__lightning"></picture>
+		</section>
+
+
+		<section class="contributor">
+			<div class="container">
+				<div class="contributor__inner">
+					<div class="contributor__content">
+						<h1 class="contributor__title title">
+							Developer Support
+						</h1>
+						<p class="contributor__text">
+							<span>Kickstart your game by raising investments from the community.</span> Create a page, describe your project, and get the required funds, giving sponsors bonuses. <span>Specific games will receive direct support from Bine.</span>
+						</p>
+						<a href="#" class="contributor__btn btn">
+							Become a Contributor
+						</a>
+					</div>
+					<picture><source srcset="img/contributor/developer.webp" type="image/webp"><img src="img/contributor/developer.png" alt="Developer Support" class="contributor__img"></picture>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="roadmap" id="roadmap">
+			<div class="roadmap__shadow"></div> 
+
+			<div class="roadmap__header">
+				<div class="container">
+					<div class="roadmap__badge badge">
+						<div class="badge__initial badge__inner">
+							<div class="badge__bg"></div>
+							<img src="img/badge/journey.svg" alt="Journey Icon">
+							<span>The Journey</span>
+						</div>					
+					</div>
+					<div class="roadmap__between">
+						<h2 class="roadmap__title title">
+							Roadmap
+						</h2>
+						<div class="roadmap__button badge">
+							<div class="roadmap__button_inner badge__inner">
+								<div class="roadmap__circle"></div>
+								<span class="roadmap__span_desktop">Pre-MVP • 2022-2022</span>
+								<span class="roadmap__span_mobile">Pre-MVP</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="roadmap__wrapper">
+				<div class="roadmap__items">
+					<div class="roadmap__item">
+						<picture><source srcset="img/roadmap/rhombus/pre-mvp.webp" type="image/webp"><img src="img/roadmap/rhombus/pre-mvp.png" alt="Rhombus" class="roadmap__rhombus roadmap__rhombus_wide"></picture>
+						<div class="roadmap__content">
+							<h2 class="roadmap__subtitle subtitle">
+								Pre-MVP
+							</h2>
+							<ul class="roadmap__list">
+								<li class="roadmap__list-item">
+									<div class="roadmap__list-item_inner badge__list badge__inner">
+										<div class="badge__list_bg badge__bg"></div>	
+										<picture><source srcset="img/roadmap/mark-gold.webp" type="image/webp"><img src="img/roadmap/mark-gold.png" alt="Gold Mark" class="roadmap__mark"></picture>
+										<span>Core Platform</span>
+									</div>
+								</li>
+								<li class="roadmap__list-item">
+									<div class="roadmap__list-item_inner badge__list badge__inner">
+										<div class="badge__list_bg badge__bg"></div>	
+										<picture><source srcset="img/roadmap/mark-gold.webp" type="image/webp"><img src="img/roadmap/mark-gold.png" alt="Gold Mark" class="roadmap__mark"></picture>
+										<span>Core Marketplace</span>
+									</div>
+								</li>
+								<li class="roadmap__list-item roadmap__list-item_black">
+									<div class="roadmap__list-item_inner badge__list badge__inner">
+										<div class="badge__list_bg badge__bg"></div>	
+										<picture><source srcset="img/roadmap/mark-black.webp" type="image/webp"><img src="img/roadmap/mark-black.png" alt="Black Mark" class="roadmap__mark"></picture>
+										<span>Core BineWizards</span>
+									</div>
+								</li>
+								<li class="roadmap__list-item roadmap__list-item_black">
+									<div class="roadmap__list-item_inner badge__list badge__inner">
+										<div class="badge__list_bg badge__bg"></div>	
+										<picture><source srcset="img/roadmap/mark-black.webp" type="image/webp"><img src="img/roadmap/mark-black.png" alt="Black Mark" class="roadmap__mark"></picture>
+										<span>Landing page for Bine</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="roadmap__item">
+						<picture><source srcset="img/roadmap/rhombus/mvp.webp" type="image/webp"><img src="img/roadmap/rhombus/mvp.png" alt="Rhombus" class="roadmap__rhombus"></picture>
+						<div class="roadmap__content">
+							<h2 class="roadmap__subtitle subtitle">
+								MVP
+							</h2>
+							<ul class="roadmap__list roadmap__list_row_3">
+								<li class="roadmap__list-item roadmap__list-item_black">
+									<div class="roadmap__list-item_inner badge__list badge__inner">
+										<div class="badge__list_bg badge__bg"></div>	
+										<picture><source srcset="img/roadmap/mark-black.webp" type="image/webp"><img src="img/roadmap/mark-black.png" alt="Black Mark" class="roadmap__mark"></picture>
+										<span>Starting the marketing campaign</span>
+									</div>
+								</li>
+								<li class="roadmap__list-item roadmap__list-item_black">
+									<div class="roadmap__list-item_inner badge__list badge__inner">
+										<div class="badge__list_bg badge__bg"></div>	
+										<picture><source srcset="img/roadmap/mark-black.webp" type="image/webp"><img src="img/roadmap/mark-black.png" alt="Black Mark" class="roadmap__mark"></picture>
+										<span>Unique bonuses for early players</span>
+									</div>
+								</li>
+								<li class="roadmap__list-item roadmap__list-item_black">
+									<div class="roadmap__list-item_inner badge__list badge__inner">
+										<div class="badge__list_bg badge__bg"></div>	
+										<picture><source srcset="img/roadmap/mark-black.webp" type="image/webp"><img src="img/roadmap/mark-black.png" alt="Black Mark" class="roadmap__mark"></picture>
+										<span>Deploying Token and Crowdsale </span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="roadmap__item">
+						<picture><source srcset="img/roadmap/rhombus/alpha-test.webp" type="image/webp"><img src="img/roadmap/rhombus/alpha-test.png" alt="Rhombus" class="roadmap__rhombus"></picture>
+						<div class="roadmap__content">
+							<h2 class="roadmap__subtitle roadmap__subtitle_gray subtitle">
+								Closed Alpha Test
+							</h2>
+							<ul class="roadmap__list roadmap__list_row_3">
+								<li class="roadmap__list-item roadmap__list-item_black">
+									<div class="roadmap__list-item_inner badge__list badge__inner">
+										<div class="badge__list_bg badge__bg"></div>	
+										<picture><source srcset="img/roadmap/mark-black.webp" type="image/webp"><img src="img/roadmap/mark-black.png" alt="Black Mark" class="roadmap__mark"></picture>
+										<span>QA Starting</span>
+									</div>
+								</li>
+								<li class="roadmap__list-item roadmap__list-item_black">
+									<div class="roadmap__list-item_inner badge__list badge__inner">
+										<div class="badge__list_bg badge__bg"></div>	
+										<picture><source srcset="img/roadmap/mark-black.webp" type="image/webp"><img src="img/roadmap/mark-black.png" alt="Black Mark" class="roadmap__mark"></picture>
+										<span>BineWizards Polishing</span>
+									</div>
+								</li>
+								<li class="roadmap__list-item roadmap__list-item_black">
+									<div class="roadmap__list-item_inner badge__list badge__inner">
+										<div class="badge__list_bg badge__bg"></div>	
+										<picture><source srcset="img/roadmap/mark-black.webp" type="image/webp"><img src="img/roadmap/mark-black.png" alt="Black Mark" class="roadmap__mark"></picture>
+										<span>Community Contests</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="roadmap__item">
+						<picture><source srcset="img/roadmap/rhombus/beta-test.webp" type="image/webp"><img src="img/roadmap/rhombus/beta-test.png" alt="Rhombus" class="roadmap__rhombus"></picture>
+						<div class="roadmap__content">
+							<h2 class="roadmap__subtitle subtitle">
+								Open Beta Test
+							</h2>
+							<ul class="roadmap__list roadmap__list_row_2">
+								<li class="roadmap__list-item roadmap__list-item_black">
+									<div class="roadmap__list-item_inner badge__list badge__inner">
+										<div class="badge__list_bg badge__bg"></div>	
+										<picture><source srcset="img/roadmap/mark-black.webp" type="image/webp"><img src="img/roadmap/mark-black.png" alt="Black Mark" class="roadmap__mark"></picture>
+										<span>Testnet starts</span>
+									</div>
+								</li>
+								<li class="roadmap__list-item roadmap__list-item_black">
+									<div class="roadmap__list-item_inner badge__list badge__inner">
+										<div class="badge__list_bg badge__bg"></div>	
+										<picture><source srcset="img/roadmap/mark-black.webp" type="image/webp"><img src="img/roadmap/mark-black.png" alt="Black Mark" class="roadmap__mark"></picture>
+										<span>Core platform implementation</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="roadmap__item">
+						<picture><source srcset="img/roadmap/rhombus/release.webp" type="image/webp"><img src="img/roadmap/rhombus/release.png" alt="Rhombus" class="roadmap__rhombus"></picture>
+						<div class="roadmap__content">
+							<h2 class="roadmap__subtitle subtitle">
+								Release
+							</h2>
+							<ul class="roadmap__list roadmap__list_row_4">
+								<li class="roadmap__list-item roadmap__list-item_black">
+									<div class="roadmap__list-item_inner badge__list badge__inner">
+										<div class="badge__list_bg badge__bg"></div>	
+										<picture><source srcset="img/roadmap/mark-black.webp" type="image/webp"><img src="img/roadmap/mark-black.png" alt="Black Mark" class="roadmap__mark"></picture>
+										<span>Launch on PancakeSwap</span>
+									</div>
+								</li>
+								<li class="roadmap__list-item roadmap__list-item_black">
+									<div class="roadmap__list-item_inner badge__list badge__inner">
+										<div class="badge__list_bg badge__bg"></div>	
+										<picture><source srcset="img/roadmap/mark-black.webp" type="image/webp"><img src="img/roadmap/mark-black.png" alt="Black Mark" class="roadmap__mark"></picture>
+										<span>Launch on Mainnet</span>
+									</div>
+								</li>
+								<li class="roadmap__list-item roadmap__list-item_black">
+									<div class="roadmap__list-item_inner badge__list badge__inner">
+										<div class="badge__list_bg badge__bg"></div>	
+										<picture><source srcset="img/roadmap/mark-black.webp" type="image/webp"><img src="img/roadmap/mark-black.png" alt="Black Mark" class="roadmap__mark"></picture>
+										<span>Tokens unfreeze</span>
+									</div>
+								</li>
+								<li class="roadmap__list-item roadmap__list-item_black">
+									<div class="roadmap__list-item_inner badge__list badge__inner">
+										<div class="badge__list_bg badge__bg"></div>	
+										<picture><source srcset="img/roadmap/mark-black.webp" type="image/webp"><img src="img/roadmap/mark-black.png" alt="Black Mark" class="roadmap__mark"></picture>
+										<span>BineWizards Release</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="roadmap__item">
+						<picture><source srcset="img/roadmap/rhombus/future.webp" type="image/webp"><img src="img/roadmap/rhombus/future.png" alt="Rhombus" class="roadmap__rhombus"></picture>
+						<div class="roadmap__content">
+							<h2 class="roadmap__subtitle subtitle">
+								And more in the future…
+							</h2>
+							<ul class="roadmap__list roadmap__list_row_4">
+								<li class="roadmap__list-item roadmap__list-item_black">
+									<div class="roadmap__list-item_inner badge__list badge__inner">
+										<div class="badge__list_bg badge__bg"></div>	
+										<picture><source srcset="img/roadmap/mark-black.webp" type="image/webp"><img src="img/roadmap/mark-black.png" alt="Black Mark" class="roadmap__mark"></picture>
+										<span>More games</span>
+									</div>
+								</li>
+								<li class="roadmap__list-item roadmap__list-item_black">
+									<div class="roadmap__list-item_inner badge__list badge__inner">
+										<div class="badge__list_bg badge__bg"></div>	
+										<picture><source srcset="img/roadmap/mark-black.webp" type="image/webp"><img src="img/roadmap/mark-black.png" alt="Black Mark" class="roadmap__mark"></picture>
+										<span>More services</span>
+									</div>
+								</li>
+								<li class="roadmap__list-item roadmap__list-item_black">
+									<div class="roadmap__list-item_inner badge__list badge__inner">
+										<div class="badge__list_bg badge__bg"></div>	
+										<picture><source srcset="img/roadmap/mark-black.webp" type="image/webp"><img src="img/roadmap/mark-black.png" alt="Black Mark" class="roadmap__mark"></picture>
+										<span>More events</span>
+									</div>
+								</li>
+								<li class="roadmap__list-item roadmap__list-item_black">
+									<div class="roadmap__list-item_inner badge__list badge__inner">
+										<div class="badge__list_bg badge__bg"></div>	
+										<picture><source srcset="img/roadmap/mark-black.webp" type="image/webp"><img src="img/roadmap/mark-black.png" alt="Black Mark" class="roadmap__mark"></picture>
+										<span>More updates</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<picture><source srcset="img/roadmap/mountain.webp" type="image/webp"><img src="img/roadmap/mountain.png" alt="Mountain" class="roadmap__mountain"></picture>
+		</section>
+
+
+		<section class="presale">
+			<div class="container">
+				<div class="presale__inner">
+					<div class="badge">
+						<div class="badge__initial badge__inner">
+							<div class="badge__bg"></div>
+							<img src="img/badge/load.svg" alt="Loading...">
+							<span>Countdown</span>
+						</div>
+					</div>
+					<picture><source srcset="img/presale/sandglass.webp" type="image/webp"><img src="img/presale/sandglass.png" alt="Sandglass" class="presale__img"></picture>
+					<h2 class="presale__title title">
+						Presale will start in...
+					</h2>
+					<div class="dynamite">
+						<img src="img/presale/dynamite.svg" alt="Dynamite" class="dynamite__img">
+						<div class="dynamite__numbers"></div>
+					</div>
+					<a href="#" class="presale__btn btn btn_gold">
+						Sign up for updates
+					</a>
+				</div>
+			</div>
+		</section>
+	</main>
+	
+	<footer class="footer" id="contact">
+		<div class="container">
+			<div class="footer__inner">
+				<nav class="footer__social">
+					<a href="#" class="footer__social-link">
+						<div class="badge__link badge__inner">
+							<div class="badge__link_bg badge__bg"></div>
+							<img src="img/footer/social/telegram.svg" alt="Telegram" class="footer__img">
+						</div>
+					</a>
+					<a href="#" class="footer__social-link">
+						<div class="badge__link badge__inner">
+							<div class="badge__link_bg badge__bg"></div>
+							<img src="img/footer/social/twitter.svg" alt="Twitter" class="footer__img">
+						</div>
+					</a>
+					<a href="#" class="footer__social-link">
+						<div class="badge__link badge__inner">
+							<div class="badge__link_bg badge__bg"></div>
+							<img src="img/footer/social/instagram.svg" alt="Instagram" class="footer__img">
+						</div>
+					</a>
+					<a href="#" class="footer__social-link">
+						<div class="badge__link badge__inner">
+							<div class="badge__link_bg badge__bg"></div>
+							<img src="img/footer/social/youtube.svg" alt="Youtube" class="footer__img">
+						</div>
+					</a>
+					<a href="#" class="footer__social-link">
+						<div class="badge__link badge__inner">
+							<div class="badge__link_bg badge__bg"></div>
+							<img src="img/footer/social/reddit.svg" alt="Reddit" class="footer__img">
+						</div>
+					</a>
+				</nav>
+				<a href="#" class="footer__btn">
+					<span>Start</span>
+				</a>
+				<div class="footer__bottom">
+					<img src="img/logo.svg" alt="Logo" class="footer__logo">
+					<div class="footer__line"></div>
+
+					<p class="footer__copyright footer__text">
+						©2022, Bine. All rights reserved.
+					</p>
+					<div class="footer__line"></div>
+
+					<a href="#" class="footer__link">
+						marketplace
+						<img src="img/footer/link.svg" alt="Marketplace Link">
+					</a>
+					<div class="footer__line"></div>
+					
+					<div class="footer__moon">
+						<p class="footer__text">
+							To the moon:
+						</p>
+						<a href="#" class="footer__rocket">
+							<img src="img/footer/rocket.svg" alt="Rocket">
+						</a>
+					</div>
+				</div>
+
+				<!-- For Mobile Devices -->
+				<p class="footer__copyright_mobile footer__text">
+					©2022, Bine. All rights reserved.
+				</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/main.min.js?_v=20221227132854"></script>
+</body>
+</html>
