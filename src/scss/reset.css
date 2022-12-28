@@ -1,0 +1,10 @@
+*,*:before,*:after{box-sizing: border-box;margin:0;padding:0;}
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
+a{background:transparent;text-decoration:none;}
+a:active,a:hover{outline:0}
+h1,h2,h3,h4,h5,h6{font-size:inherit;margin:0;padding:0;}
+img{border:0}
+svg:not(:root){overflow:hidden}
+button {display: block;cursor: pointer;border: none;}
+ol,ul,li{padding:0;margin:0;list-style-type:none;}
