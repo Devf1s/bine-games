@@ -10,7 +10,7 @@ ____
 	- **HTML5**
 	- **SCSS**
 	- **JavaScript**
-- Tools:
+- **Tools**:
   - **[Lenis](https://github.com/studio-freight/lenis)** - Smooth scroll
   - **[GSAP](https://greensock.com/gsap/)** - Horizontal scroll effect
   - **[Swiper](https://swiperjs.com/)** - Touch slider
